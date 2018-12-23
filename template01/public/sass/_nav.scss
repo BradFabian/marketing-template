@@ -1,0 +1,54 @@
+.navigation {
+  background-color: white;
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  width: 100%;
+  top: 0;
+  padding: 0;
+  margin: 0;
+  z-index: 1;
+}
+.navigation {
+  li {
+    background-color: rgb(238, 28, 20);
+    font-weight: bold;
+    display: inline;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 0 3px #999;
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+  }
+}
+
+nav {
+  a:link,
+  a:visited {
+    text-decoration: none;
+    color: aliceblue;
+  }
+  a:hover,
+  li:hover {
+    background-color: darkred;
+    transform: translateY(4px);
+  }
+}
+
+@media all and (max-width: 600px) {
+  .navigation {
+    flex-wrap: wrap;
+  }
+
+  .navigation > li {
+    flex-basis: 50%;
+  }
+
+  .wrapper {
+    .row-1 .row-2 .row-3 .row-4 {
+      flex-wrap: wrap;
+    }
+  }
+}

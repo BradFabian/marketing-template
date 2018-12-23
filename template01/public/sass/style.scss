@@ -1,0 +1,120 @@
+// Sass variables for responsiveness
+$mobile-width: 480px;
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+// Mixin for mobile
+@mixin mobile {
+  @media (max-width: #{$mobile-width}) {
+    @content;
+  }
+}
+
+// Mixin for tablet
+@mixin tablet {
+  @media (min-width: #{$mobile-width + 1px}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+// Mixin for desktop
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+//SASS variables
+$bg: url("../images/NESBG.jpg");
+
+body {
+  background-image: $bg;
+  background-size: cover;
+
+  background-position: center;
+  height: 95vh;
+  margin: 0px;
+  padding: 0px;
+  z-index: -1;
+}
+
+main {
+  max-width: 1200px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+.row-1 {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.row-1 {
+  article {
+    flex-basis: 50%;
+    background: gold;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px grey;
+    opacity: 0.9;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.row-2 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.row-2 {
+  article {
+    flex-basis: 50%;
+    background: gold;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px grey;
+    opacity: 0.9;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.row-4 {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.row-4 {
+  article {
+    flex-basis: 50%;
+    background: gold;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px grey;
+    opacity: 0.9;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+//import nav css //
+@import "nav";
+//import products css//
+@import "products";
+//import button//
+@import "button";
+//import fonts css//
+@import "fonts";
+//import footer css//
+@import "footer";
