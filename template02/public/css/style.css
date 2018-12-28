@@ -1,0 +1,20 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  background-color: #fff;
+  color: #6b6666;
+  font-family: "Lato", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility; }
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)), url(../img/carl-raw-457982-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh; }
+
+/*# sourceMappingURL=style.css.map */
