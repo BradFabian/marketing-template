@@ -181,6 +181,7 @@ nav li:hover {
 body {
   font-family: "Press Start 2P", cursive;
   color: white;
+  line-height: 145%;
   text-shadow: black 0.1em 0.1em 0.2em; }
 
 footer {
