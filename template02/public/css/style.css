@@ -5,7 +5,7 @@
 
 html {
   background-color: #fff;
-  color: #6b6666;
+  color: #fff;
   font-family: "Lato", Arial, sans-serif;
   font-weight: 300;
   font-size: 20px;
@@ -43,7 +43,7 @@ h2:after {
   display: block;
   margin: auto;
   height: 2px;
-  background-color: #e67e22;
+  background-color: #1abc9c;
   width: 100px;
   margin-top: 30px; }
 
@@ -87,7 +87,25 @@ h3 {
   text-decoration: none;
   color: aliceblue; }
 .navigation a:hover {
-  border-bottom: 2px solid #e67e22; }
+  border-bottom: 2px solid #1abc9c; }
+
+.row-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)), url(../img/antwon-i-579171-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh; }
+
+.row-2 h2,
+.row-2 p {
+  color: #fff; }
+
+.row-3 {
+  background-color: #141414;
+  display: flex;
+  flex-wrap: wrap; }
+
+article {
+  text-align: center; }
 
 @media all and (max-width: 600px) {
   .navigation {
