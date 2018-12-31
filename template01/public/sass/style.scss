@@ -1,31 +1,3 @@
-/* Extra small devices (phones, 600px and down) */
-@media screen and (max-width: 600px) {
-  .row1 {
-    padding-top: 150px;
-  }
-
-  .row3 {
-    article {
-      margin: 10px;
-    }
-  }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media screen and (min-width: 600px) {
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media screen and (min-width: 768px) {
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media screen and (min-width: 992px) {
-}
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media screen and (min-width: 1200px) {
-}
-
 //SASS variables
 $bg: url("../images/NESBG.jpg");
 
@@ -120,3 +92,46 @@ main {
 @import "fonts";
 //import footer css//
 @import "footer";
+
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+  h1 {
+    margin-top: 150px;
+  }
+
+  .row3 {
+    flex-direction: column;
+  }
+  .column-3-box {
+    margin-bottom: 10px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (min-width: 600px) {
+  h1 {
+    margin-top: 150px;
+  }
+
+  .row3 {
+    flex-direction: column;
+  }
+
+  .column-3-box {
+    margin-bottom: 10px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+  h1 {
+    margin-top: 10px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+}
