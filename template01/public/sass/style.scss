@@ -1,27 +1,29 @@
-// Sass variables for responsiveness
-$mobile-width: 480px;
-$tablet-width: 768px;
-$desktop-width: 1024px;
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+  .row1 {
+    padding-top: 150px;
+  }
 
-// Mixin for mobile
-@mixin mobile {
-  @media (max-width: #{$mobile-width}) {
-    @content;
+  .row3 {
+    article {
+      margin: 10px;
+    }
   }
 }
 
-// Mixin for tablet
-@mixin tablet {
-  @media (min-width: #{$mobile-width + 1px}) and (max-width: #{$desktop-width - 1px}) {
-    @content;
-  }
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (min-width: 600px) {
 }
 
-// Mixin for desktop
-@mixin desktop {
-  @media (min-width: #{$desktop-width}) {
-    @content;
-  }
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
 }
 
 //SASS variables
