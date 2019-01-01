@@ -1,0 +1,53 @@
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)),
+    url(../img/carl-raw-457982-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+
+.hero-text-box {
+  position: absolute;
+  flex-basis: 50%;
+  width: 1140px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.navigation {
+  background-color: black;
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  list-style-type: none;
+  word-spacing: 2px;
+  width: 100%;
+  top: 0;
+  padding: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.navigation {
+  a:link,
+  a:visited {
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    transition: border-bottom 0.2s;
+    text-decoration: none;
+    color: #ffff;
+  }
+  a:hover {
+    border-bottom: 2px solid #1abc9c;
+  }
+}

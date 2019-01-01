@@ -14,13 +14,6 @@ html {
   font-size: 20px;
   text-rendering: optimizeLegibility; }
 
-header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)), url(../img/carl-raw-457982-unsplash.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  position: relative; }
-
 h1,
 h2,
 h3,
@@ -60,8 +53,35 @@ h3 {
   font-size: 110%;
   margin-bottom: 15px; }
 
+.row-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)), url(../img/antwon-i-579171-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding-top: 30px; }
+
+.row-2 h2,
+.row-2 p {
+  color: #fff; }
+
+.row {
+  flex-basis: 100%;
+  padding-bottom: 20px;
+  padding-top: 20px; }
+
+article {
+  text-align: center; }
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)), url(../img/carl-raw-457982-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative; }
+
 .hero-text-box {
   position: absolute;
+  flex-basis: 50%;
   width: 1140px;
   top: 50%;
   left: 50%;
@@ -98,20 +118,6 @@ h3 {
 .navigation a:hover {
   border-bottom: 2px solid #1abc9c; }
 
-.hero-text-box {
-  flex-basis: 50%; }
-
-.row-2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)), url(../img/antwon-i-579171-unsplash.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  padding-top: 30px; }
-
-.row-2 h2,
-.row-2 p {
-  color: #fff; }
-
 .row-3 {
   background-color: #141414;
   display: flex;
@@ -127,12 +133,8 @@ h3 {
   background-size: cover;
   background-position: center;
   height: 100vh;
-  padding-top: 30px; }
-
-.row {
-  flex-basis: 100%;
-  padding-bottom: 20px;
-  padding-top: 20px; }
+  padding-top: 30px;
+  line-height: 145%; }
 
 .btn:link,
 .btn:visited {
@@ -177,9 +179,6 @@ h3 {
   transform: scaleX(1.4) scaleY(1.6);
   opacity: 0; }
 
-article {
-  text-align: center; }
-
 footer {
   background-color: black;
   color: #fff;
@@ -199,5 +198,17 @@ footer {
 
   .wrapper .row-1 .row-2 .row-3 .row-4 {
     flex-wrap: wrap; } }
+@media screen and (min-width: 600px) {
+  .row3 {
+    flex-direction: column; }
+
+  .column-3-box {
+    margin-bottom: 10px; } }
+@media screen and (min-width: 768px) {
+  .row3 {
+    flex-direction: column; }
+
+  .column-3-box {
+    margin-bottom: 10px; } }
 
 /*# sourceMappingURL=style.css.map */
