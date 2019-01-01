@@ -2,5 +2,5 @@
 A marketing template made with HTML, CSS, and SASS.
 
 ![](
-        marketing-template/public/images/websitetour.gif
+        https://github.com/BradFabian/marketing-template/blob/master/public/images/websitetour.gif
       )
