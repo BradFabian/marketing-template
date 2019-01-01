@@ -1,5 +1,5 @@
 //SASS variables
-$bg: url("../images/NESBG.jpg");
+$bg: linear-gradient(#3498db, #3498df);
 
 body {
   background-image: $bg;
@@ -51,26 +51,6 @@ main {
 }
 
 .row-2 {
-  article {
-    flex-basis: 50%;
-    background: gold;
-    border-radius: 15px;
-    box-shadow: 5px 5px 5px grey;
-    opacity: 0.9;
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-  }
-}
-
-.row-4 {
-  display: flex;
-  justify-content: center;
-
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-.row-4 {
   article {
     flex-basis: 50%;
     background: gold;
