@@ -2,15 +2,6 @@
   padding: 0;
   margin: 0; }
 
-@media all and (max-width: 600px) {
-  .navigation {
-    flex-wrap: wrap; }
-
-  .navigation > li {
-    flex-basis: 50%; }
-
-  .wrapper .row-1 .row-2 .row-3 .row-4 {
-    flex-wrap: wrap; } }
 html {
   background-color: #fff;
   color: #fff;
@@ -95,7 +86,7 @@ h3 {
   padding: 10px;
   transition: border-bottom 0.2s;
   text-decoration: none;
-  color: aliceblue; }
+  color: #ffff; }
 .navigation a:hover {
   border-bottom: 2px solid #1abc9c; }
 
@@ -177,5 +168,18 @@ footer {
   text-align: center;
   height: 100px;
   width: auto; }
+
+@media all and (max-width: 600px) {
+  .navigation {
+    opacity: 0.8;
+    text-align: center;
+    display: flex;
+    flex-direction: column; }
+
+  .navigation > li {
+    flex-basis: 50%; }
+
+  .wrapper .row-1 .row-2 .row-3 .row-4 {
+    flex-wrap: wrap; } }
 
 /*# sourceMappingURL=style.css.map */
