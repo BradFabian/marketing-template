@@ -1,6 +1,12 @@
+//====================================//
+// CHANGE BUTTON COLOR AND FONT STYLE //
+$btnbg-color: rgb(238, 28, 20); //color of button//
+$font-weight: bold; // NORMAL, BOLD, BOLDER, LIGHTER//
+$btntextcolor: aliceblue; // Button Text Color//
+//===================================//
 .btn:link,
 .btn:visited {
-  background-color: rgb(238, 28, 20);
+  background-color: $btnbg-color;
   font-weight: bold;
   color: aliceblue;
   display: block;
@@ -29,7 +35,7 @@
 .btn::after {
   content: "";
   display: inline-block;
-  background-color: rgb(238, 28, 20);
+  background-color: $btnbg-color;
   height: 100%;
   width: 100%;
   border-radius: 100px;

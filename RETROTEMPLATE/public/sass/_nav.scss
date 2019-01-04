@@ -1,5 +1,12 @@
+//=========================================//
+// CHANGE NAV BACKGROUND AND FONT COLOR //
+$nav-bg: white;
+$nav-btn-bg: rgb(238, 28, 20);
+$nav-hover-color: darkred;
+$nav-text-color: aliceblue;
+//=========================================//
 .navigation {
-  background-color: white;
+  background-color: $nav-bg;
   display: flex;
   position: fixed;
   justify-content: center;
@@ -11,7 +18,7 @@
 }
 .navigation {
   li {
-    background-color: rgb(238, 28, 20);
+    background-color: $nav-btn-bg;
     font-weight: bold;
     display: inline-block;
     text-align: center;
@@ -28,11 +35,11 @@ nav {
   a:link,
   a:visited {
     text-decoration: none;
-    color: aliceblue;
+    color: $nav-text-color;
   }
   a:hover,
   li:hover {
-    background-color: darkred;
+    background-color: $nav-hover-color;
     transform: translateY(4px);
   }
 }

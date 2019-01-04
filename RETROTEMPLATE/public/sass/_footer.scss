@@ -1,3 +1,8 @@
+//=========================================//
+// CHANGE FOOTER BACKGROUND COLOR //
+$footer-bg: brown;
+//=========================================//
+
 footer {
   display: flex;
   text-align: center;
@@ -6,5 +11,5 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: brown;
+  background-color: $footer-bg;
 }

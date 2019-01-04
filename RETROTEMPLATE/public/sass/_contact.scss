@@ -1,3 +1,7 @@
+//====================================//
+// CHANGE CONTACT BACKGROUND IMAGE //
+$contact-bg: gold; //Change background color//
+//====================================//
 .row-4 {
   display: flex;
   justify-content: center;
@@ -8,7 +12,7 @@
 .row-4 {
   article {
     flex-basis: 50%;
-    background: gold;
+    background: $contact-bg;
     border-radius: 15px;
     box-shadow: 5px 5px 5px grey;
     opacity: 0.9;
