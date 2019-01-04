@@ -21,6 +21,6 @@
 ## Edit Site for Your Needs
 
 1. Download the files on the landing page.
-2. Find either the Template01 or Template02 folder
+2. Find either the ModernTemplate or RetroTemplate folder
 3. Locate the Style.scss file and read the comments to see how to edit texts, images or videos, and affiliate links.
 4. This template is very customizable, go nuts and enjoy! 
