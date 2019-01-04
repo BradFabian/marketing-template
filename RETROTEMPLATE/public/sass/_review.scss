@@ -1,0 +1,26 @@
+//=========================================//
+// CHANGE REVIEW BACKGROUND //
+$review-bg: gold;
+//=========================================//
+
+.row-2 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.row-2 {
+  article {
+    flex-basis: 50%;
+    background: $review-bg;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px grey;
+    opacity: 0.9;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

@@ -1,5 +1,7 @@
-//SASS variables
+//=========================================//
+//Change website background style//
 $bg: linear-gradient(#3498db, #3498df);
+//=========================================//
 
 body {
   background-image: $bg;
@@ -28,43 +30,11 @@ main {
   margin-bottom: 20px;
 }
 
-.row-1 {
-  article {
-    flex-basis: 50%;
-    background: gold;
-    border-radius: 15px;
-    box-shadow: 5px 5px 5px grey;
-    opacity: 0.9;
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-  }
-}
-
-.row-2 {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.row-2 {
-  article {
-    flex-basis: 50%;
-    background: gold;
-    border-radius: 15px;
-    box-shadow: 5px 5px 5px grey;
-    opacity: 0.9;
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-  }
-}
-
 //import nav css //
 @import "nav";
+
+//import review css//
+@import "review";
 //import products css//
 @import "products";
 //import contact css//

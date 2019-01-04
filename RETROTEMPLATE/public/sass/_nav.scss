@@ -4,7 +4,22 @@ $nav-bg: white;
 $nav-btn-bg: rgb(238, 28, 20);
 $nav-hover-color: darkred;
 $nav-text-color: aliceblue;
+$header-bg: gold;
 //=========================================//
+
+.row-1 {
+  article {
+    flex-basis: 50%;
+    background: $header-bg;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px grey;
+    opacity: 0.9;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
 .navigation {
   background-color: $nav-bg;
   display: flex;
