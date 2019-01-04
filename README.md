@@ -22,5 +22,6 @@
 
 1. Download the files on the landing page.
 2. Find either the ModernTemplate or RetroTemplate folder
-3. Go to Public Folder locate the Sass folder and read the comments in each scss file to see how to edit texts, images or videos, and affiliate links.
-4. This template is very customizable, go nuts and enjoy! 
+3. Read the  comments in index html files to learn how to change all content to your specific need.
+4. Go to Public Folder locate the Sass folder and read the comments in each scss file to see how to edit stylings for texts, images or videos, and affiliate links.
+5. This template is very customizable, go nuts and enjoy! 
