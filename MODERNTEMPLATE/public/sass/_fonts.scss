@@ -1,0 +1,23 @@
+//=====================//
+// CHANGE FONT//
+
+$font-family: "Lato", Arial, sans-serif; //change fonts for webpage//
+$html-font-color: #fff;
+$paragraph-font-color: #fff;
+//====================//
+
+html {
+  background-color: #fff;
+  color: $html-font-color;
+  font-family: $font-family;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+}
+
+.row-2 {
+  h2,
+  p {
+    color: $paragraph-font-color;
+  }
+}

@@ -6,14 +6,6 @@ main {
   max-width: 2200px;
   min-width: 373px; }
 
-html {
-  background-color: #fff;
-  color: #fff;
-  font-family: "Lato", Arial, sans-serif;
-  font-weight: 300;
-  font-size: 20px;
-  text-rendering: optimizeLegibility; }
-
 h1,
 h2,
 h3,
@@ -52,17 +44,6 @@ h2:after {
 h3 {
   font-size: 110%;
   margin-bottom: 15px; }
-
-.row-2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)), url(../img/antwon-i-579171-unsplash.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  padding-top: 30px; }
-
-.row-2 h2,
-.row-2 p {
-  color: #fff; }
 
 .row {
   flex-basis: 100%;
@@ -128,6 +109,13 @@ header {
   align-items: center;
   opacity: 0.9; }
 
+.row-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)), url(../img/antwon-i-579171-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding-top: 30px; }
+
 .row-4 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)), url(../img/annie-spratt-593479-unsplash.jpg);
   background-size: cover;
@@ -179,6 +167,18 @@ header {
   transform: scaleX(1.4) scaleY(1.6);
   opacity: 0; }
 
+html {
+  background-color: #fff;
+  color: #fff;
+  font-family: "Lato", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility; }
+
+.row-2 h2,
+.row-2 p {
+  color: #fff; }
+
 footer {
   background-color: black;
   color: #fff;
@@ -194,7 +194,8 @@ footer {
     flex-direction: column; }
 
   .navigation > li {
-    flex-basis: 50%; }
+    flex-basis: 50%;
+    margin: 5px; }
 
   .wrapper .row-1 .row-2 .row-3 .row-4 {
     flex-wrap: wrap; } }

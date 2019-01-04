@@ -1,0 +1,14 @@
+//=========================================//
+// CHANGE REVIEW BACKGROUND //
+$review-bg: url(../img/antwon-i-579171-unsplash.jpg);
+
+//=========================================//
+
+.row-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)),
+    $review-bg;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding-top: 30px;
+}

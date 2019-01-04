@@ -1,8 +1,15 @@
+//====================================//
+// CHANGE BUTTON COLOR AND FONT STYLE //
+
+$btnbg-color: #1abc9c; //COLOR OF BUTTON//
+$font-weight: bold; // NORMAL, BOLD, BOLDER, LIGHTER//
+$btntextcolor: #fff; // BUTTON TEXT COLOR//
+//===================================//
 .btn:link,
 .btn:visited {
-  background-color: #1abc9c;
-  font-weight: bold;
-  color: #fff;
+  background-color: $btnbg-color;
+  font-weight: $font-weight;
+  color: $btntextcolor;
   display: inline-block;
   text-decoration: none;
   text-align: center;
@@ -29,7 +36,7 @@
 .btn::after {
   content: "";
   display: inline-block;
-  background-color: #1abc9c;
+  background-color: $btnbg-color;
   height: 100%;
   width: 100%;
   border-radius: 100px;

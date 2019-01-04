@@ -1,3 +1,6 @@
+//===============================================================================//
+// Changes over all styling only change if you have an advanced knoweldge of sass//
+//===============================================================================//
 * {
   padding: 0;
   margin: 0;
@@ -6,15 +9,6 @@
 main {
   max-width: 2200px;
   min-width: 373px;
-}
-
-html {
-  background-color: #fff;
-  color: #fff;
-  font-family: "Lato", Arial, sans-serif;
-  font-weight: 300;
-  font-size: 20px;
-  text-rendering: optimizeLegibility;
 }
 
 h1,
@@ -61,22 +55,6 @@ h3 {
   margin-bottom: 15px;
 }
 
-.row-2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)),
-    url(../img/antwon-i-579171-unsplash.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  padding-top: 30px;
-}
-
-.row-2 {
-  h2,
-  p {
-    color: #fff;
-  }
-}
-
 .row {
   flex-basis: 100%;
   padding-bottom: 20px;
@@ -91,6 +69,8 @@ article {
 @import "nav";
 //import products css//
 @import "products";
+//import review css//
+@import "review";
 //import contact css//
 @import "contact";
 //import button//

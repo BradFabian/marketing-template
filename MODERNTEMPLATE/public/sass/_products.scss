@@ -1,5 +1,10 @@
+//=========================================//
+// CHANGE PRODUCTS BACKGROUND COLOR //
+$products-bg: rgb(20, 20, 20);
+//=========================================//
+
 .row-3 {
-  background-color: rgb(20, 20, 20);
+  background-color: $products-bg;
   display: flex;
 
   flex-direction: row;

@@ -1,6 +1,12 @@
+//=========================================//
+// CHANGE FOOTER BACKGROUND AND FONT COLOR //
+$footer-bg: black; //change footer background//
+$footer-text-color: #fff; //change footer text//
+//=========================================//
+
 footer {
-  background-color: black;
-  color: #fff;
+  background-color: $footer-bg;
+  color: $footer-text-color;
   text-align: center;
   height: 100px;
   width: auto;

@@ -1,6 +1,14 @@
+//=========================================//
+// CHANGE NAV/HEADER BACKGROUND AND FONT COLOR //
+$header-bg: url(../img/carl-raw-457982-unsplash.jpg); //change header background image//
+$nav-bg: black; //change navbar color//
+$nav-text-color: #ffff; // change navbar text//
+$nav-text-hover-underline: #1abc9c; // change color of nav hover underline//
+//=========================================//
+
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)),
-    url(../img/carl-raw-457982-unsplash.jpg);
+    $header-bg;
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -17,7 +25,7 @@ header {
 }
 
 .navigation {
-  background-color: black;
+  background-color: $nav-bg;
   display: flex;
   position: fixed;
   justify-content: center;
@@ -45,9 +53,9 @@ header {
     padding: 10px;
     transition: border-bottom 0.2s;
     text-decoration: none;
-    color: #ffff;
+    color: $nav-text-color;
   }
   a:hover {
-    border-bottom: 2px solid #1abc9c;
+    border-bottom: 2px solid $nav-text-hover-underline;
   }
 }
