@@ -4,6 +4,7 @@
 $font-family: "Lato", Arial, sans-serif; //change fonts for webpage//
 $html-font-color: #fff;
 $paragraph-font-color: #fff;
+$heading-font-color: #fff;
 //====================//
 
 html {
@@ -20,4 +21,8 @@ html {
   p {
     color: $paragraph-font-color;
   }
+}
+
+h1 {
+  color: $heading-font-color;
 }

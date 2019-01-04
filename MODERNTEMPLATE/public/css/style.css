@@ -16,7 +16,6 @@ h4 {
 h1 {
   margin-top: 0;
   margin-bottom: 20px;
-  color: #fff;
   font-size: 180%;
   word-spacing: 3px;
   letter-spacing: 1px;
@@ -177,6 +176,9 @@ html {
 
 .row-2 h2,
 .row-2 p {
+  color: #fff; }
+
+h1 {
   color: #fff; }
 
 footer {
