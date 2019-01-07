@@ -4,7 +4,7 @@
 }
 
 main {
-  max-width: 2200px;
+  max-width: 1700px;
   min-width: 373px;
   color: #fff;
   line-height: 145%;
@@ -31,8 +31,9 @@ section {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  flex-basis: 60%;
+  flex-basis: 34%;
   flex-shrink: inherit;
+  width: 100%;
 }
 
 .heading-primary {
@@ -119,6 +120,17 @@ section {
   margin: 10px;
 }
 
+.btn-demo:link,
+.btn-demo:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 30px;
+  display: inline-block;
+  border-radius: 100px;
+  transition: all 0.2s;
+  position: relative;
+  margin: 10px;
+}
 .btn:hover {
   transform: translateY(-3px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -129,6 +141,11 @@ section {
 }
 
 .btn-white {
+  background-color: #1abc9c;
+  color: #fff;
+}
+
+.btn-demo {
   background-color: #1abc9c;
   color: #fff;
 }
@@ -147,6 +164,10 @@ section {
 }
 
 .btn-white::after {
+  background-color: #1abc9c;
+}
+
+.btn-demo::after {
   background-color: #1abc9c;
 }
 
