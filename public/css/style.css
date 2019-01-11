@@ -56,6 +56,14 @@ section {
   flex-shrink: inherit;
   width: 100%; }
 
+.text-box p {
+  line-height: 145%;
+  letter-spacing: 5px;
+  font-size: 90%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px; }
+
 .heading-primary {
   color: #fff;
   text-transform: uppercase;
