@@ -16,7 +16,7 @@
 
 ## What can you use this for?
 * Great for movie trailers and providing the links for dvd purchases or movie tickets!
-* Fantatsic for your youtube videos reveiwing tech and providing links to purchase.
+* Fantastic for your youtube videos reviewing tech and providing links to purchase.
 * Outstanding for college kids looking to review college text and make a lil money back!!
 * Enjoy collecting Funkos?? Throw them pics up provide the links and make money!!!
 ## Landing Page 
